@@ -1,5 +1,60 @@
+.area-padding1{
+    padding:70px 0 80px !important;
+}
+.column12 {
+  float: left;
+  width: 30%;
+  margin: 16px;
+  padding: 0 8px;
+    
+}
 
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
 
+.aboutimg{
+    margin-bottom:20px!important;
+}
+
+.container12 {
+  padding: 0 16px;
+}
+
+.container12::after, .row1::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button12 {
+    text-align: center;
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width:50%;
+}
+
+.button12:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
 html, body {
   height: 100%;
     
@@ -40,9 +95,9 @@ img {
 }
 .logoimg{
        position: absolute;
-    width: 200px;
+    width: px;
     height: auto;
-    top: 5px;
+    top: -7px;
     left:-181px !important
 
 }
@@ -293,8 +348,8 @@ div#preloader {
 }
 
 .navbar {
-  border: medium none;
-  margin-bottom: 0;
+  /*border: medium none;
+  margin-bottom: 0; */
 }
 
 .navbar-default {
